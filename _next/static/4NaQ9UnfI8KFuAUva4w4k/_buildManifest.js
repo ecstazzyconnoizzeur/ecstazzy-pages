@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/ecstazzy-pages//_next/:path+",
+        "destination": "/ecstazzy-pages/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
