@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/ecstazzy-source//_next/:path+",
-        "destination": "/ecstazzy-source/_next/:path+"
+        "source": "/ecstazzy-pages//_next/:path+",
+        "destination": "/ecstazzy-pages/_next/:path+"
       }
     ],
     "fallback": []
